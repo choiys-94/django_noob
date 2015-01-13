@@ -1,0 +1,10 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}" />
+
+<ul>
+	<li>Hello, World!</li>
+	<li>Blank</li>
+</ul>
+
+<p><a href = "{% url 'home:viewboard' %}" style=nounderline>Go to board</a></p>
